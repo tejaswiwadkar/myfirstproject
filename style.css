@@ -1,4 +1,4 @@
-h1{
+.one{
     text-align: center;
     background-color: aqua;
     border: 5px solid black;
@@ -6,7 +6,7 @@ h1{
 }
 
 
-h2{
+.two{
     text-align: center;
     background-color: chartreuse;
 }
