@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>marks calulator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- 
-    <h1 class="one">tejaswi</h1>
-    <h2 class="two">Rohini</h2>
+
+    <div class="background">
+        <div class="container">
+            <div class="box">
+                <form onsubmit="calculateMarks(event)" class="calculate-form" id="calculateForm">
+                    <input type="number" required min="0" max="100" name="maths" placeholder="Maths">
+                    <input type="number" required min="0" max="100" name="english" placeholder="English">
+                    <input type="number" required min="0" max="100" name="hindi" placeholder="Hindi">
+                    <input type="number" required min="0" max="100" name="science" placeholder="Science">
+                    <input type="number" required min="0" max="100" name="marathi" placeholder="Marathi">
+                    <input type="number" required min="0" max="100" name="history" placeholder="History">
+
+                    <button type="submit" class="primary-btn">calculate</button>
+                </form>
+                <p class="result" id="result"></p>
+            </div>
+            <div class="content">
+                <h2>Calculate Your</h2>
+                <h1>Percentage</h1> 
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
